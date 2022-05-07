@@ -1,0 +1,94 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 20px;
+}
+nav{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+}
+ul{
+    align-items: center;
+    width: 100%;
+}
+.services,
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li, 
+.logo{
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+}
+ /* Web banner styles */
+.banner img{
+    width: 100%;
+}
+
+/* services styles */
+.services{
+    width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.box{
+    max-width: 350px;
+    background-color: rgb(252, 246, 246);
+}
+.box img{
+    width: 100%;
+}
+.bag{
+    font-weight: bold;
+    font-size: 20px;
+}
+.bag,
+.price{
+    padding: 10px;
+}
+
+/* content */
+.banner img,
+article{
+    margin-top: 50px;
+}
+article{
+    margin-bottom: 100px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px
+}
+
+footer a,
+footer span,
+.price{
+    color: #205375;
+}
